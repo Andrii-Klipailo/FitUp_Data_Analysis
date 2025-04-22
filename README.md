@@ -1,7 +1,7 @@
 # FitUp Data Analysis
 **Analysis of key metrics and user behavior in the fitness app**
 ---
-![FitUp Logo](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/screenshots/FitUp_logo.png)
+![FitUp Logo](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/images/FitUp_logo.png)
 ---
 
 ## Overview  
@@ -43,7 +43,7 @@ GROUP BY 1
 ORDER BY 1
 ;
 ```
-![MAU](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/screenshots/MAU.png)
+![MAU](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/images/MAU.png)
 
 ---
 
@@ -58,7 +58,7 @@ GROUP BY 1
 ORDER BY 1
 ;
 ```  
-![WAU](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/screenshots/WAU.png)
+![WAU](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/images/WAU.png)
 
 ---
 
@@ -73,7 +73,7 @@ GROUP BY 1
 ORDER BY 1
 ;
 ```  
-![DAU](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/screenshots/DAU.png)
+![DAU](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/images/DAU.png)
 
 ---
 
@@ -89,7 +89,7 @@ SELECT
   ,2) as Conversion_rate
 ;
 ```
-![Conversion_rate](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/screenshots/Conversion_rate.png)
+![Conversion_rate](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/images/Conversion_rate.png)
 
 ---
 
@@ -137,7 +137,7 @@ FROM main_table
 ORDER BY 1
 ;
 ```
-![Retention_rate](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/screenshots/Retention_rate.png)
+![Retention_rate](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/images/Retention_rate.png)
 
 ---
 
@@ -171,7 +171,7 @@ FROM main_table
 ORDER BY month
 ;
 ```
-![ARPU](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/screenshots/ARPU.png)
+![ARPU](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/images/ARPU.png)
 
 ---
 
@@ -193,7 +193,7 @@ ORDER BY month
 ;
 
 ```
-![ARPPU](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/screenshots/ARPPU.png)
+![ARPPU](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/images/ARPPU.png)
 
 ---
 
@@ -211,7 +211,7 @@ SELECT ROUND(AVG(living_time),0) AS user_livetime
 FROM living_time_table
 ;
 ```
-![Lifetime](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/screenshots/Lifetime.png)
+![Lifetime](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/images/Lifetime.png)
 
 ---
 
@@ -238,8 +238,8 @@ GROUP BY 1
 ;
 
 ```
-![LTV_table](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/screenshots/LTV_table.png)
-![LTV_chart](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/screenshots/LTV_chart.png)
+![LTV_table](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/images/LTV_table.png)
+![LTV_chart](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/images/LTV_chart.png)
 
 ---
 
@@ -254,7 +254,7 @@ GROUP BY event_type
 ORDER BY quantity DESC
 ;
 ```
-![Quantity_events](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/screenshots/Quantity_events.png)
+![Quantity_events](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/images/Quantity_events.png)
 
 ---
 
@@ -268,7 +268,7 @@ GROUP BY country
 ORDER BY users DESC
 ;
 ```
-![Country](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/screenshots/Country.png)
+![Country](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/images/Country.png)
 
 ---
 
@@ -282,7 +282,7 @@ GROUP BY platform
 ORDER BY users
 ;
 ```
-![Platforms](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/screenshots/Platforms.png)
+![Platforms](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/images/Platforms.png)
 
 ---
 
@@ -299,7 +299,7 @@ ROUND(
 ,2) AS finished_training
 ;
 ```
-![finished_training](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/screenshots/finished_training.png)
+![finished_training](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/images/finished_training.png)
 
 ---
 
@@ -337,7 +337,7 @@ ROUND(
 ,2) AS workout_before_buy
 ;
 ```
-![workout_before_buy](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/screenshots/workout_before_buy.png)
+![workout_before_buy](https://github.com/Andrii-Klipailo/FitUp_Data_Analysis/blob/main/images/workout_before_buy.png)
 ---
 ## Findings and Conclusion
 
