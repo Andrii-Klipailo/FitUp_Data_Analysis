@@ -181,7 +181,7 @@ Revenue per paying user per month.
 --ARPPU by month
 WITH main_table AS(
 SELECT EXTRACT(MONTH FROM DATE(subscription_date)) as month
-  ,COUNT(user_id) as active_users
+  ,COUNT(DISTINCT user_id) as active_users
   ,SUM(price) AS amount
 FROM `FitUp.subscriptions`
 GROUP BY 1
